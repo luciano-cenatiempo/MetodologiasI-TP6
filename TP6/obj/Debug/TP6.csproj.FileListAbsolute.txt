@@ -1,0 +1,6 @@
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP6\TP6\obj\Debug\TP6.csprojResolveAssemblyReference.cache
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP6\TP6\bin\Debug\TP6.exe.config
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP6\TP6\bin\Debug\TP6.exe
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP6\TP6\bin\Debug\TP6.pdb
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP6\TP6\obj\Debug\TP6.exe
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP6\TP6\obj\Debug\TP6.pdb
