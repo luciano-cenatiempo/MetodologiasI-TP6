@@ -17,9 +17,51 @@ namespace TP6
 		public static void Main(string[] args)
 		{
 			
-			simularClaseConAluCompuesto();
+//			simularClaseConAluCompuesto();
+			// simularJuegosCarta();
+			jugarTruco("Pablo", "Martín");
+			jugarChinchon("Fede","Germán");
 			Console.ReadKey();
 			
+		}
+		
+		// EJERCICIO 6 TP6
+		public static void jugarTruco(string nombre1, string nombre2){
+			Persona jugador1 = new Persona();
+			jugador1.setNombre(nombre1);
+			
+			Persona jugador2  = new Persona();
+			jugador2.setNombre(nombre2);
+			
+			JuegoDeCartas truco = new Truco(jugador1, jugador2);
+			
+			truco.jugar();
+
+		}
+		
+		public static void jugarChinchon(string nombre1, string nombre2){
+			Persona jugador1 = new Persona();
+			jugador1.setNombre(nombre1);
+			
+			Persona jugador2  = new Persona();
+			jugador2.setNombre(nombre2);
+			
+			JuegoDeCartas chinchon = new Chinchon(jugador1, jugador2);
+			
+			chinchon.jugar();
+
+		}
+		
+		// EJERCICIO 3-4-5 TP6
+		public static void simularJuegosCarta(){
+			Persona jugador1 = new Persona();
+			jugador1.setNombre("Juan");
+			
+			Persona jugador2  = new Persona();
+			jugador2.setNombre("Carla");
+			
+			JuegoDeCartas chinchon = new Chinchon(jugador1, jugador2);
+			chinchon.jugar();
 		}
 		
 		

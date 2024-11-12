@@ -67,18 +67,24 @@ namespace TP6
 
 		public bool sosIgual(Comparable com)
 		{
+			if(com is AlumnoCompuesto)
+				return alumno.sosIgual(com);
 			return alumno.sosIgual(((AlumnoDecorator)com).alumno);
 		}
 
 		public bool sosMenor(Comparable com)
 		{
-			
+			if(com is AlumnoCompuesto)
+			 	return alumno.sosMenor(com);
+				
 			return alumno.sosMenor(((AlumnoDecorator)com).alumno);
 			
 		}
 
 		public bool sosMayor(Comparable com)
 		{
+			if(com is AlumnoCompuesto)
+			 	return alumno.sosMayor(com);
 			return alumno.sosMayor(((AlumnoDecorator)com).alumno);
 		}
 	}

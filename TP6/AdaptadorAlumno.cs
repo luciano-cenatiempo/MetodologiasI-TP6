@@ -86,7 +86,7 @@ namespace TP6
 		public bool sosMenor(Comparable com)
 		{
 			if (com is AdaptadorAlumno)
-                return this.alumno.sosMayor(((AdaptadorAlumno)com).getAlumno());
+                return this.alumno.sosMenor(((AdaptadorAlumno)com).getAlumno());
 
             return false;
 		}
@@ -94,7 +94,7 @@ namespace TP6
 		public bool sosMayor(Comparable com)
 		{
 			if (com is AdaptadorAlumno)
-                return this.alumno.sosMenor(((AdaptadorAlumno)com).getAlumno());
+                return this.alumno.sosMayor(((AdaptadorAlumno)com).getAlumno());
 
             return false;
 		}
